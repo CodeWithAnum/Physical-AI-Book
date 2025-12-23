@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import ChatWidget from '../components/HomepageFeatures/ChatWidget';
 
 import styles from './index.module.css';
 
@@ -102,6 +103,9 @@ export default function Home(): ReactNode {
       <main>
         <TableOfContents />
       </main>
+      <ChatWidget />
     </Layout>
   );
 }
+
+
